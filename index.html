@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Coversion</title>
+</head>
+<body>
+    <form>
+        <h1>Temperature Coversion:</h1>
+        <input type="number" id="myText" value="0" placeholder="enter the temperature">
+        <br>
+        <input type="radio" id="toFahrenhiet" name="degree">
+        <label for="toFahrenhiet" name="degree">Celsius → Fahrenhiet</label>
+        <br>
+        <input type="radio" id="toCelsius" name="degree">
+        <label for="toCelsius" name="degree">Fahrenhiet → Celsius</label>
+        <br>
+        <button type="button" onclick="convert()">Submit</button>
+        <br>
+        <p id="result"></p>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
